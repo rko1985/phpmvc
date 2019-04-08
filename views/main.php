@@ -48,7 +48,9 @@
 <div class="container">
 
     <div class="row">
-
+        <div class="col">
+            <?php Messages::display(); ?>
+        </div>        
         <?php require($view); ?>
 
     </div>
